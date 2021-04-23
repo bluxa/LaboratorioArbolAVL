@@ -125,7 +125,8 @@ namespace LaboratorioArbolAVL.ArbolAVL
                 raiz = new NodoAvl(dt);
                 h.setLogical(true);
             }
-            else if (dt.menorQue(raiz.valorNodo()))
+            //else if (dt.menorQue(raiz.valorNodo()))
+            else if (dt.mayorQue(raiz.valorNodo()))
             {
                 NodoAvl iz;
                 iz = insertarAvl((NodoAvl)raiz.subarbolIzdo(), dt, h);
@@ -154,7 +155,8 @@ namespace LaboratorioArbolAVL.ArbolAVL
                     }
                 }
             }
-            else if (dt.mayorQue(raiz.valorNodo()))
+            //else if (dt.mayorQue(raiz.valorNodo()))
+            else if (dt.menorQue(raiz.valorNodo()))
             {
                 NodoAvl dr;
                 dr = insertarAvl((NodoAvl)raiz.subarbolDcho(), dt, h);

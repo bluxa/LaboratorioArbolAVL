@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\LaboratorioArbolAVL.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\bluxa\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\LaboratorioArbolAVL.csproj",
       "projectName": "LaboratorioArbolAVL",
-      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\LaboratorioArbolAVL.csproj",
+      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\bluxa\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\LaboratorioArbolAVL.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\bluxa\\LaboratorioArbolAVL\\LaboratorioArbolAVL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
