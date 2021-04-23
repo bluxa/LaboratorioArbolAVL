@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaboratorioArbolAVL
 {
-    class ClsProyecto : Comparador
+    public class ClsProyecto : Comparador
     {
         public int prioridad { get; set; }
         public string depto { get; set; }
