@@ -30,5 +30,13 @@ namespace LaboratorioArbolAVL
 
             miArbolAvl.insertar(miProyecto);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ClsProyecto objProyecto = new ClsProyecto(0,"",txtNombre.Text,0);
+            ClsProyecto objEncontrado = (ClsProyecto)miArbolAvl.buscar(objProyecto).valorNodo();
+
+            MessageBox.Show(objEncontrado.ToString());
+        }
     }
 }

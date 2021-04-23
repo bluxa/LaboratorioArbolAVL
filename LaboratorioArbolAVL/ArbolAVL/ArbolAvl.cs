@@ -190,6 +190,29 @@ namespace LaboratorioArbolAVL.ArbolAVL
             return raiz;
         }
 
+        public Nodo buscar(Object buscado)
+        {
+            Comparador dato;
+            dato = (Comparador)buscado;
+            if (raiz == null)
+                return null;
+            else
+                return buscar(raizArbol(), dato);
+        }
+
+        protected Nodo buscar(Nodo raizSub, Comparador buscado)
+        {
+            if (raizSub == null)
+                return null;
+            else if (buscado.igualQue(raizSub.valorNodo()))
+                return raizSub;
+            else if (buscado.menorQue(raizSub.valorNodo()))
+                return buscar(raizSub.subarbolIzdo(), buscado);
+            else
+                return buscar(raizSub.subarbolDcho(), buscado);
+        }
+
+
         public void eliminar(Object valor) //throws Exception
         {
             Comparador dato;

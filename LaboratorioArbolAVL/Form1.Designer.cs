@@ -38,16 +38,17 @@ namespace LaboratorioArbolAVL
             this.txtMonto = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtPrioridad = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(97, 210);
+            this.button1.Location = new System.Drawing.Point(25, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 41);
             this.button1.TabIndex = 18;
-            this.button1.Text = "Aceptar";
+            this.button1.Text = "Insertar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -128,11 +129,23 @@ namespace LaboratorioArbolAVL
             this.txtPrioridad.Size = new System.Drawing.Size(170, 23);
             this.txtPrioridad.TabIndex = 10;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(179, 209);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(139, 41);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Buscar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 284);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -160,6 +173,7 @@ namespace LaboratorioArbolAVL
         private System.Windows.Forms.TextBox txtMonto;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtPrioridad;
+        private System.Windows.Forms.Button button2;
     }
 }
 

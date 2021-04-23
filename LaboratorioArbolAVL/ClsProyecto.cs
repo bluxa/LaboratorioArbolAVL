@@ -28,7 +28,8 @@ namespace LaboratorioArbolAVL
 
         public bool igualQue(object q)
         {
-            throw new NotImplementedException();
+            ClsProyecto aux = (ClsProyecto)q;
+            return nombre == aux.nombre;
         }
 
         bool Comparador.menorQue(object q)
